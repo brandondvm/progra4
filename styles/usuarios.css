@@ -1,0 +1,38 @@
+.heladeria-usuarios {
+  padding-top: 76px;
+}
+
+.healderia-usuarios-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.heladeria-usuarios-title {
+  color: #c3512f;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.card-title i {
+  color: #5285EC;
+}
+
+.heladeria-usuario-card {
+  margin-bottom: 25px;
+}
+
+.heladeria-usuarios-lista p {
+  font-family: 'Barlow Condensed', sans-serif;  
+}
+
+.heladeria-usuarios-lista p span {
+  font-weight: bold;
+}
+
+.heladeria-usuario-buttons {
+  display: flex;
+  justify-content: flex-end;
+}

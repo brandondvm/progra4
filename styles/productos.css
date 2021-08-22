@@ -1,0 +1,135 @@
+.heladeria-productos {
+  padding-top: 76px;
+  padding-bottom: 20px;
+}
+
+.healderia-productos-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.heladeria-productos-filter {
+  margin-bottom: 25px;
+}
+
+.heladeria-productos-filter form {
+  display: flex;
+}
+
+.heladeria-productos-filter form i {
+  margin-left: 10px;
+}
+
+.search-btn {
+  align-items: center;
+  background: none;
+  border: none;
+  display: flex;
+  font-size: 20px;
+}
+
+.search-btn-clear {
+  align-items: center;
+  color: black;
+  display: flex;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+.search-btn:hover,
+.search-btn-clear:hover {
+  color: #c3512f;
+}
+
+.heladeria-producto {
+  margin-bottom: 20px;
+}
+
+.heladeria-productos-title {
+  color: #c3512f;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.heladeria-producto-lista-item {
+  border: 1px solid #E2E2E2;
+  height: 100%;
+  padding: 10px;
+}
+
+.heladeria-producto-lista-item > .row {
+  height: 100%;
+}
+
+.producto-stock span {
+  font-weight: bold;
+}
+
+.heladeria-producto-img-container {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.heladeria-producto-precaucion {
+  background-color: #FFD814;  
+  padding: 0 5px;
+  width: max-content;
+}
+
+.heladeria-producto-agotado {
+  background-color: #B12704;
+  color: #ffffff;
+  padding: 0 5px;
+  width: max-content;
+}
+
+.heladeria-producto-option {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.heladeria-producto-option:hover {
+  color: #c3512f;
+}
+
+.heladeria-producto-edit {
+  color: #FFA81E;
+}
+
+.heladeria-producto-delete {
+  color: #D20F55;
+}
+
+.producto-informacion {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.producto-informacion h2 {
+  color: #c3512f;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.producto-informacion p {
+  font-family: 'Barlow Condensed', sans-serif;  
+  font-size: 18px;
+}
+
+.producto-img {
+  display: block;
+  max-width: 150px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.primary-button {
+  margin: 10px 0;
+}

@@ -1,0 +1,89 @@
+.heladeria-producto {
+  min-height: 600px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.heladeria-producto .carousel {
+  height: 350px;
+}
+
+.heladeria-producto .carousel-inner {
+  height: 100%;
+}
+
+.heladeria-producto .carousel-item {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.heladeria-producto .carousel-item:first-child {
+  background-image: url('../img/producto/producto1.jpg');
+}
+
+.heladeria-producto .carousel-item:nth-child(2) {
+  background-image: url('../img/producto/producto2.jpg');
+}
+
+.heladeria-producto-informacion {
+  margin-top: 100px;
+}
+
+.heladeria-producto-informacion h1 {
+  color: #c3512f;
+  font-family: 'Fjalla One', sans-serif;
+  margin-bottom: 15px;
+}
+
+.helado-producto-descripcion {
+  font-family: 'Barlow Condensed', sans-serif;  
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.helado-producto-label {
+  font-family: 'Barlow Condensed', sans-serif;  
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.helado-producto-compra-input {
+  width: 50%;
+}
+
+.helado-producto-label span,
+.heladeria-producto .form-label {
+  font-family: 'Fjalla One', sans-serif;
+} 
+
+@media only screen and (max-width: 767px) {
+  .heladeria-producto {
+    padding: 15px 0;
+    min-height: auto;
+  }
+
+  .heladeria-producto .carousel {
+    height: 200px; 
+    margin-bottom: 25px;
+  }
+
+  .heladeria-producto-informacion {
+    padding: 0 30px;
+    margin-top: 0;
+  }
+
+  .heladeria-producto-informacion h1 {
+    font-size: 24px;
+  }
+
+  .helado-producto-descripcion {
+    font-size: 20px;
+  }
+
+  .helado-producto-label {
+    font-size: 14px;
+  }
+}

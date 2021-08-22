@@ -1,0 +1,14 @@
+.heladeria-agregar-usuario {
+  min-height: 600px;
+  padding-bottom: 25px;
+  padding-top: 76px;
+}
+
+.heladeria-agregar-usuario form .form-label {
+  font-family: 'Barlow Condensed', sans-serif;  
+  font-size: 20px;
+}
+
+.heladeria-agregar-usuario form textarea {
+  resize: vertical;
+}

@@ -1,0 +1,18 @@
+.heladeria-agregar-producto {
+  min-height: 600px;
+  padding-bottom: 25px;
+  padding-top: 76px;
+}
+
+.heladeria-agregar-producto form {
+  margin-top: 25px;
+}
+
+.heladeria-agregar-producto form .form-label {
+  font-family: 'Barlow Condensed', sans-serif;  
+  font-size: 20px;
+}
+
+.heladeria-agregar-producto form textarea {
+  resize: vertical;
+}

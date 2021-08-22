@@ -1,0 +1,61 @@
+.heladeria-carrito {
+  min-height: 600px;
+  padding-bottom: 15px;
+  padding-top: 76px;
+}
+
+.heladeria-carrito-title {
+  color: #c3512f;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.healderia-carrito-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.heladeria-carrito-card {
+  margin-bottom: 25px;
+}
+
+.heladeria-producto-nombre {
+  color: #c3512f;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+}
+
+.heladeria-producto-info p {
+  font-size: 16px;
+  font-family: 'Barlow Condensed', sans-serif;  
+  margin-top: 10px;
+}
+
+.heladeria-producto-info span {
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.heladeria-total {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+}
+
+.heladeria-total span {
+  color: #c3512f;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.heladeria-carrito-bottom {
+  text-align: right;
+}
+
+.heladeria-carrito-info {
+  margin-bottom: 20px;
+}
+
+.heladeria-carrito-info span {
+  font-family: 'Fjalla One', sans-serif;
+}

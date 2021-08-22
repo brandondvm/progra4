@@ -1,0 +1,45 @@
+.heladeria-compras {
+  min-height: 600px;
+  padding-top: 76px;
+}
+
+.healderia-compras-header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.heladeria-compras-title {
+  color: #c3512f;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+.card-title i {
+  color: #5285EC;
+}
+
+.heladeria-compras-card {
+  margin-bottom: 15px;
+}
+
+.heladeria-compras-lista p {
+  font-family: 'Barlow Condensed', sans-serif;  
+}
+
+.heladeria-compras-lista p span {
+  font-weight: bold;
+}
+
+.heladeria-compras-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.heladeria-compras-details {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
